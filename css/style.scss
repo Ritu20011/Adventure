@@ -48,6 +48,10 @@ h1,
     font-weight: 700;
     font-size: 22px;
     margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        filter: drop-shadow(0px 0px 10px #fff);
+    }
 }
 
 .mainFlex {
@@ -121,11 +125,13 @@ h1,
                 box-sizing: border-box;
                 transform: translateX(-50%);
             }
-            &:hover{
-                &::after{
+
+            &:hover {
+                &::after {
                     width: 100%;
                 }
-                &::before{
+
+                &::before {
                     height: calc(100% - 5px);
                 }
 
