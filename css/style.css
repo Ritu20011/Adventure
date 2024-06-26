@@ -37,6 +37,10 @@ h1,
 .btn:hover {
   filter: drop-shadow(0px 0px 10px #fff);
 }
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 .mainFlex {
   display: flex;
